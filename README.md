@@ -1,5 +1,12 @@
 # Usage
 
+### 参数
+在 ./src/common/params.h 中可更改相关参数：
+- PASSWORD：PAKE协议用到的原始口令pw
+- PASSWORD：PAKE协议用到的登录口令pw'
+- MESSAGE：待签名的消息
+- NUM_PARTIES：参与方数目，目前仅支持三方
+
 ### 编译
 在主目录下编译
 
