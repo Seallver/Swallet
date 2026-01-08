@@ -1,0 +1,52 @@
+{
+  "version": "3.0.2",
+  "lastModified": "2026-01-08T06:25:29.887Z",
+  "folders": [],
+  "bookmarks": [
+    {
+      "id": "mk3skz5xitz164s7yxm",
+      "name": "run",
+      "file": "Swallet-Rust/src/party/sign.rs",
+      "line": 549,
+      "character": 16,
+      "lineContent": "pub fn run_sign(",
+      "sortOrder": 2
+    },
+    {
+      "id": "mk3smbpdntk0w694e9q",
+      "name": "hand",
+      "file": "Swallet-Rust/src/party/sign.rs",
+      "line": 79,
+      "character": 53,
+      "lineContent": "fn party_sign_message_handler(msg: &NetworkMessage) {",
+      "sortOrder": 3
+    },
+    {
+      "id": "mk51bfwc9od7tn2b4rs",
+      "name": "// 序列化 EC",
+      "file": "Swallet-Rust/src/coordinator/presign.rs",
+      "line": 127,
+      "character": 35,
+      "lineContent": "// 序列化 - 压缩格式，固定33字节 = 66字符",
+      "sortOrder": 4
+    },
+    {
+      "id": "mk51er8twjozm3lsrui",
+      "name": "deseri EC",
+      "file": "Swallet-Rust/src/party/presign.rs",
+      "line": 216,
+      "character": 30,
+      "lineContent": "// 压缩 EC 点：33字节 = 66十六进制字符",
+      "sortOrder": 5
+    },
+    {
+      "id": "mk51gfc84a0zw7ujm1s",
+      "name": "1",
+      "file": "Swallet-Rust/src/party/sign.rs",
+      "line": 119,
+      "character": 88,
+      "lineContent": "fn handle_request_sign(msg: &NetworkMessage) -> Result<(), Box<dyn std::error::Error>> {",
+      "sortOrder": 6
+    }
+  ]
+}

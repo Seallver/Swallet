@@ -1,0 +1,22 @@
+[package]
+name = "swallet-rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "coordinator"
+path = "src/bin/coordinator.rs"
+
+[[bin]]
+name = "party"
+path = "src/bin/party.rs"
+
+[dependencies]
+openssl = { version = "0.10", features = [] }
+tempfile = "3.24.0"
+rand = "0.9.2"
+hex = "0.4.3"
+crossbeam-utils = "0.8"
+
+[dev-dependencies]
+# 测试依赖

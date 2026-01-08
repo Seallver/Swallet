@@ -2,6 +2,8 @@
 
 Party party = {0};
 int offline_id = -1;
+int sign_flag = 0;
+int received = 0;
 
 int init_party() {
   party.a = EC_POINT_new(sys_params.group);

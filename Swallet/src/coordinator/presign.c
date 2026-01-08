@@ -53,7 +53,6 @@ void presign_message_handler(const NetworkMessage *msg) {
   int type = msg->type;
 
   switch (type) {
-  //接收到coordinator发来的预签名材料
   case MSG_PUBLIC_R: {
     EC_POINT *R_i = EC_POINT_new(sys_params.group);
     R_i = deserialize_ec_point(msg->data);

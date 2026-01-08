@@ -2,6 +2,8 @@
 
 key_pair_t key_pair = {0};
 
+int vk_received_count = 0;
+
 int generate_key_pair() {
   if (!sys_params.group || !sys_params.q) {
     fprintf(stderr, "Invalid parameters\n");

@@ -12,10 +12,6 @@
 
 volatile int listen_thread_exit = 0;
 
-int vk_received_count = 0;
-int sign_flag = 0;
-int received = 0;
-
 int setup();
 int keygen();
 int presign();
